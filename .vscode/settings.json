@@ -1,0 +1,9 @@
+// Workspace settings
+{
+    "files.exclude": {
+        "**/*/bin": true,
+        "**/*/obj": true,
+        "**/.static": true
+    },
+    "dotnet-test-explorer.testProjectPath": "**/test/*/*.csproj"
+}

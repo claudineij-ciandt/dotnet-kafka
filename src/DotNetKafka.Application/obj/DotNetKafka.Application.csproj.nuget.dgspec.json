@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/claudineij/Projects/Itau/itau-ep/src/dotnet-kafka/src/DotNetKafka.Application/DotNetKafka.Application.csproj": {}
+  },
+  "projects": {
+    "/home/claudineij/Projects/Itau/itau-ep/src/dotnet-kafka/src/DotNetKafka.Application/DotNetKafka.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/claudineij/Projects/Itau/itau-ep/src/dotnet-kafka/src/DotNetKafka.Application/DotNetKafka.Application.csproj",
+        "projectName": "DotNetKafka.Application",
+        "projectPath": "/home/claudineij/Projects/Itau/itau-ep/src/dotnet-kafka/src/DotNetKafka.Application/DotNetKafka.Application.csproj",
+        "packagesPath": "/home/claudineij/.nuget/packages/",
+        "outputPath": "/home/claudineij/Projects/Itau/itau-ep/src/dotnet-kafka/src/DotNetKafka.Application/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/claudineij/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
